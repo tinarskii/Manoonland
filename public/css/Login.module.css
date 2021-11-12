@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:400,600,700&display=swap');
+
+main {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.login-form {
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow {
+  text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.486);
+}

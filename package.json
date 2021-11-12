@@ -1,0 +1,20 @@
+{
+  "name": "land",
+  "version": "1.0.0",
+  "description": "A manoonchai typing game",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node server.js"
+  },
+  "author": "Tinnaphat \"Tin\" Somsang",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "prisma": "^3.4.2",
+    "pug": "^3.0.2"
+  }
+}

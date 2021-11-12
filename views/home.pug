@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="public/css/tailwind.css")
+    link(rel="stylesheet", href="public/css/Home.module.css")
+    title Manoonland
+  body
+  main.grid.h-screen.place-items-center
+      .flex.flex-col.justify-center
+        img.mx-auto(src="/public/image/manoonchai.png", align="center" width="64px" height="64px" alt="logo")
+        h1.text-5xl.font-bold.text-center Manoonland
+        p.text-xl The Manoonchai Layout Typing Game
+        button.px-4.py-2.bg-green-500.text-white.font-bold.rounded-xl.mt-4.outline-none.transform.transition.duration-200(class="hover:bg-green-700 active:scale-95 focus:ring-offset-transparent focus:ring-2 ring-offset-2 focus:ring-green-500" onclick="window.location.href = '/dashboard'") Let's Go!
